@@ -1,173 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>My CV</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	<link rel="Stylesheet" href="styles/CV.css">
-</head>
-<body>
-	<a id="linked-welcome"></a>
-	<h1>Dean Francis</h1>
-	<h3>Email: <span id="email">dml.franics@gmail.com</span> Contact details: <span id="contact-details"> 0894058747</span></h3>
-	
-	<!--NavBar-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <div class="container">
-			<a><img src="images/Dean Photo.jpeg" alt="Picture of Dean" class="navbar-brand deanpic" height="70" />Welcome to my CV!</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-			  <ul class="navbar-nav ms-auto">
-				<li class="nav-item nav-item dropdown">
-				  <a class="nav-link active nav-link dropdown-toggle" aria-current="page" href="index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">CV Information</a>
-						  </a>
-						  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<li><a class="dropdown-item" href="#linked-welcome">Welcome</a></li>
-							<li><a class="dropdown-item" href="#linked-education">Education</a></li>
-							<li><a class="dropdown-item" href="#linked-experience">Experience</a></li>
-							<li><a class="dropdown-item" href="#linked-skills">Skills</a></li>
-							<li><a class="dropdown-item" href="#linked-projects">Projects</a></li>
-						  </ul>
-						</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="coverletter/Coverletter.html">Cover Letter</a>
-				</li>
-			  </ul>
-			</div>
-		  </div>
-		</nav>
-	<!--Carousel-->
-	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-		  <div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-		  </div>
-		  <div class="carousel-inner">
-			<div class="carousel-item active">
-			  <img src="images/comp.jpg" class="d-block w-100" alt="Handing CV">
-			</div>
-			<div class="carousel-item">
-			  <img src="images/copyprojects.jpg" class="d-block w-100" alt="Projects worked">
-			</div>
-			<div class="carousel-item">
-			  <img src="images/copycopycontact.jpg" class="d-block w-100" alt="Get in contact">
-			</div>
-		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		  </button>
-		</div>
-	
-	<!--Get in touch-->
-	<a> To get in touch: </a>
-	<a href="https://www.linkedin.com/in/deanfrancis/">Visit my LinkedIn!</a>
-	<a> or </a>
-	<a href="mailto:dml.francis@gmail.com">Send me a email!</a>
-	<br>
-			
-	<!--Education Cards-->
-	<h4 id="linked-education"></h4>
-	<h2 class="Headings">Education: </h2>
-		<div class="container pt-4">
-			<div class="row">
-				<div class="col-sm">
-					<h3 class="College">The National College of Ireland</h3>
-						<br></br>
-						<p class="Subjects">Certificate in Computing - Distinction</p>
-							<ul id="skill-list">
-								<li>Software Developemnt (JAVA)</li>
-								<li>Databases (SQL)</li>
-								<li>Computer Architecture, Operating Systems and Networks</li>
-							</ul>
-				</div>
-				<div class="col-sm">
-				<h3 class="College">Technological University Dublin</h3>
-						<br></br>
-						<p class="Subjects">Bachelor of Science in Business & Mgt - 1.1</p>
-							<ul id="skill-list">
-								<li>Economics</li>
-								<li>Accounting</li>
-								<li>Marketing</li>
-							</ul>	
-				</div>
-				<div class="col-sm">
-				<h3 class="College">Quality and Qualifications Ire</h3>
-						<br></br>
-						<p class="Subjects">Certificate in Business Studies - Distinction</p>
-							<ul id="skill-list">
-								<li>Economics</li>
-								<li>Accounting</li>
-								<li>Informations Communications Technology</li>
-							</ul>
-				</div>
-			</div>
-		</div>
-	
-	<h4 id="linked-experience"></h4>
-	<h2 class="Headings">Experience:</h2>
-	<div class="container-1">
-		<div class="box-1">
-			<h3>Fidelity Investments</h3>
-			<p>Associate Analyst, Transfer of Assets</p>
-			<p>Acquired several skills/experiences in topics such as Agile Methodology, Data Analytics Concepts, SQL, Math's & Stats Fundamentals, Programming Concepts, Python and Excel.</p>
-		</div>
-		<div class="box-2">
-			<h3>Coca-Cola Hellenic Bottling Company</h3>
-			<p>Events Team Member</p>
-			<p>Working festivals and large public gatherings which involve dealing with vender orders, serving customers and setting up equipment.</p>
-		</div>
-		<div class="box-3">
-			<h3>Indeed.com</h3>
-			<p>Account Executive Intern</p>
-			<p>Sales Internship with a focus on selling pay-per-click advertising (PPC) services to small-to-medium sized employers in the UK market.</p>
-		</div>
+	<head>
+		<link rel="icon" type="images/x-icon" href="images/Dean Photo.jpeg" />
+		<title>Labs Dean Francis 22212761</title>
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+	<body>
+	<h1>Web Design and Client Side Scripting Labs</h1>
+	<h1>Name: Dean Francis</h1>
+	<h1>Student Number: 22212761</h1>
+	<div id="header">
+			<div class="link"><a href="Week 1/CV.html">Week 1 Lab - Creating CV</a></div>
+			<br/>
+			<div class="link"><a href="Week 2/week2lab.html">Week 2 Lab - Recreate Image</a></div>
+			<br/>
+			<div class="link"><a href="Week 3/CV.html">Week 3 Lab - CV with Flexbox</a></div>
+			<br/>
+			<div class="link"><a href="Week 4/index.html">Week 4 Lab - Fixing broken links/paths</a></div>
+			<br/>
+			<div class="link"><a href="Week 5/index.html">Week 5 Lab - CV Deployed onto Github</a></div>
+			<br/>
+			<div class="link"><a href="Week 6/index.html">Week 6 Lab - CV Deployed onto Github (Bootstrap)</a></div>
+			<br/>
+			<div class="link"><a href="Week 7/index.html">Week 7 Lab - Name and Email Form</a></div>
+			<br/>
+			<div class="link"><a href="Week 8/index.html">Week 8 Lab - Rock Paper Scissors</a></div>
+			<br/>
+			<div class="link"><a href="Week 9/Lab - 99 Bottles of Beer/index.html">Week 9 Lab (Part 1 of 2) - 99 Bottles of Beer</a></div>
+			<br/>
+			<div class="link"><a href="Week 9/Lab - Rock Paper Scissors/index.html">Week 9 Lab (Part 2 of 2) - Rock Paper Scissors Updated</a></div>
+			<br/>
 	</div>
 	
-	<h4 id="linked-skills"></h4>
-	<h2 class="Headings">Skills: </h2>
-		<ul id="skill-list">
-			<li>Leadership</li>
-			<li>Teamwork</li>
-			<li>Creative</li>
-		</ul>
-		
-	<h4 id="linked-projects"></h4>
-	<h2 class="Headings">Projects: </h2>
-	<p>Some of the project that I have completed include:</p>
-	<div class="container-2">
-		<div class="box-1">
-			<h3>Password Checker</h3>
-			<p>A password checker application. Programmed using JAVA SE 7. This app requested a user input and checked it based on variuos conditions.</p>
-		</div>
-		<div class="box-2">
-			<h3>Sales Database</h3>
-			<p>A sals database. Programmed using MySQL. This database contained various table and queries which supported store sales analysis.</p>
-		</div>
-		<div class="box-3">
-			<h3>Error Manager</h3>
-			<p>A project which showcased Task Manager and how it may be used to minimse restart times due to system errors.</p>
-		</div>
-	</div>
-	
-	<h4>Dummy text to jump across page</h4>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum, felis quis gravida scelerisque, magna nibh efficitur ex, nec mollis erat justo in metus.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum, felis quis gravida scelerisque, magna nibh efficitur ex, nec mollis erat justo in metus.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum, felis quis gravida scelerisque, magna nibh efficitur ex, nec mollis erat justo in metus.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum, felis quis gravida scelerisque, magna nibh efficitur ex, nec mollis erat justo in metus.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum, felis quis gravida scelerisque, magna nibh efficitur ex, nec mollis erat justo in metus.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum, felis quis gravida scelerisque, magna nibh efficitur ex, nec mollis erat justo in metus.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum, felis quis gravida scelerisque, magna nibh efficitur ex, nec mollis erat justo in metus.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum, felis quis gravida scelerisque, magna nibh efficitur ex, nec mollis erat justo in metus.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum, felis quis gravida scelerisque, magna nibh efficitur ex, nec mollis erat justo in metus.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum, felis quis gravida scelerisque, magna nibh efficitur ex, nec mollis erat justo in metus.</p>
-	
-</body>
+	</body>
 </html>
