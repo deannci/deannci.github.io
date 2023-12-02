@@ -1,0 +1,158 @@
+<!-- Dean developed the game page -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project</title>
+		<link rel="icon" type="images/x-icon" href="../images/other/NCI_N.jpg" />
+		<link rel="stylesheet" href="../styles/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	</head>
+	<body>
+	
+	
+	<!-- NavBar-->
+	<nav class="navbar navbar-expand-lg">
+	  <div class="container" id="linked-start">
+		<a class="nav-link" href="../index.html"><img src="../images/other/nciLogo.jpg" alt="NCI Logo" class="navbar-brand ncilogo" height="70" /></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav ms-auto">
+			<li class="nav-item nav-item dropdown">
+			  <a class="nav-link active nav-link dropdown-toggle" aria-current="page" href="../index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+			  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				<li><a class="dropdown-item" href="../index.html#linked-introduction">Introduction</a></li>
+				<li><a class="dropdown-item" href="../index.html#linked-details">Project Details</a></li>
+				<li><a class="dropdown-item" href="../index.html#linked-video">Video</a></li>
+				<li><a class="dropdown-item" href="../index.html#linked-members">Group Members</a></li>
+			  </ul>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/learning-outcomes.html">Learning Outcomes</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/game.html">Game</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/video.html">Video</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/cv.html">Our CV's</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/contact.html">Contact</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/about.html">About</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+		
+		
+	<!--Carousel-->
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-1.jpg" class="d-block w-100" alt="banner image 1">
+					<p class="overlay-text">Let's Play!</p>
+				</div>
+			</div>
+			<div class="carousel-item active">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-2.jpg" class="d-block w-100" alt="banner image 2">
+					<p class="overlay-text">Let's Play!</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-3.jpg" class="d-block w-100" alt="banner image 3">
+					<p class="overlay-text">Let's Play!</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-4.jpg" class="d-block w-100" alt="banner image 4">
+					<p class="overlay-text">Let's Play!</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-5.jpg" class="d-block w-100" alt="banner image 5">
+					<p class="overlay-text">Let's Play!</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-6.jpg" class="d-block w-100" alt="banner image 6">
+					<p class="overlay-text">Let's Play!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	
+	<!-- Game -->
+	<div class="container mt-4 mb-4">
+		<h1>Guess the Stream!</h1>
+		<p>Here at NCI, the Higher Diploma in Science in Computing is broken down into a number of specialisation streams.
+			<br>
+			<br>
+			To educate both new and current students alike, we have created this game to show what's on offer at NCI.
+			<br>
+			<br>
+			In this game, the computer will select a random Higher Diploma stream and you are to try guess its choice.
+			Good Luck!
+			<br>
+		</p>
+		<div class="buttons-container pt-4 pb-4">
+			<button onclick="chooseOption('Web Development')">Web Development</button>
+			<button onclick="chooseOption('Blockchain')">Blockchain</button>
+			<button onclick="chooseOption('International')">International</button>
+			<button onclick="chooseOption('Software Development')">Software Development</button>
+			<button onclick="chooseOption('AI/Machine Learning')">AI/Machine Learning</button>
+		
+		
+		<div class="mt-2" id="userChoice"></div>
+		<div id="computerChoice"></div>
+		<div id="result"></div>
+		</div>
+	</div>
+		
+
+	<!-- End of Page -->
+	<h4 class="end-of-page mb-0 pt-3" id="linked-end">end of page</h4>
+	<div class="container-fluid pt-4 end-of-page">
+		<div class="row justify-content-center">
+			<!-- First Column -->
+			<div class="col-sm-4 mx-auto">
+				<p class="mb-3 Group">Group Members</p>
+				<p class="mb-1 Group-Members">Dean Francis</p>
+				<p class="mb-1 Group-Members">Aaron Gallagher</p>
+				<p class="mb-4 Group-Members">Steven Sciberras</p>
+			</div>
+
+			<!-- Second Column -->
+			<div class="col-sm-4">
+				<p class="mb-3 Group">Student Numbers</p>
+				<p class="mb-1 Group-Members">22212761</p>
+				<p class="mb-1 Group-Members">23121386</p>
+				<p class="mb-4 Group-Members">23174668</p>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="../script/script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+	<footer>
+	<!--Button-->
+	<div class="d-flex justify-content-center mb-0">
+			<a class="nav-link" href="#linked-start"><img src="../images/other/back-to-top.jpg" alt="Arrow" class="navbar-brand arrow" height="40" /></a>
+	</div>
+	</footer>
+</html>

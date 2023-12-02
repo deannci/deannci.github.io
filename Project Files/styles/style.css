@@ -1,0 +1,461 @@
+/*//Home(index//)*/
+/*Navbar-1*/
+.home-page .navbar-nav .nav-link{
+	color: white !important;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0 3px 6px #000;
+}
+
+.home-page .navbar-brand.ncilogo{
+	margin-left: 80px;
+}
+
+/* Add space to left/right of nav items */
+.home-page .navbar-nav{
+	margin-left: 20px;
+	margin-right: 60px;
+}
+
+.home-page .overlay-text{
+	margin-left: 80px;
+}
+
+/*Navbar-2*/
+.navbar{
+	background-color: #white;
+}
+
+/*Carousel*/
+.carousel-content-container{
+	position: relative;
+}
+
+.overlay-text{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	padding-left: 20px;
+	font-size: 31px;
+	line-height: 35px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif !important;
+	display: block;
+	text-shadow: 0 3px 6px #000;
+}
+
+.carousel-indicators button{
+	height: 10px !important;
+	width: 10px !important;
+	margin: 0 5px !important;
+	border-radius: 100%;
+}
+	
+/*Find a Course (Grey)*/
+.background-grey{
+	background-color: rgb(234, 236, 236);
+}
+
+/*Introduction (Purple)*/
+.background-purple{
+	background-color: rgb(120, 71, 148);
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+.Welcome{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	text-align: left;
+}
+
+.nci-link{
+	color:white;
+}
+
+/*Cards*/	
+h6{
+	border-bottom: 1px solid #01ba7f;
+	margin-top: 20px;
+	border-left: 0.5px solid #e1e1e1;
+	border-right: 0.5px solid #e1e1e1;
+}
+
+#linked-cards a{
+	padding: 8px;
+}
+
+#linked-cards a:hover{
+	background-color: rgb(120, 71, 148);
+	color: white !important;
+}
+
+/*Purple Buttons*/
+.btn-purple{
+	background-color: rgb(120, 71, 148) !important;
+	color: white !important;
+	width: 160px;
+}
+
+/*Boxes*/
+.custom-container-bg{
+	background-color: rgb(234, 236, 236);
+}
+
+.custom-bg{
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid #01ba7f;
+}
+
+.small-image{
+	max-width: 65%;
+	height: auto;
+	max-height: 65px;
+}
+
+.box-end{
+	margin-bottom: 2px;
+}
+
+
+/*End of the Page*/
+.end-of-page{
+	background-color: #364650;
+	color: rgba(0,0,0,0);
+	border-bottom: 1px solid rgba(191, 191, 191, 0.5);
+}
+
+.Group{
+	color: #A07EB4;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.Group-Members{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: white;
+}
+
+
+/*//Game//*/
+.buttons-container{
+	text-align: center;
+	margin-top: 20px;
+	background-color: rgb(234, 236, 236);
+}
+
+.buttons-container button{
+	background-color: rgb(120, 71, 148);
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+/*//Video//*/
+.video-card{
+	text-align: center;
+}
+
+#vidcard{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 15px;
+	max-width: 300px;
+	margin: 0 auto 20px;
+	background-color: rgb(120, 71, 148);
+	color: white;
+	font-weight: bold;
+}
+
+.card img{
+	max-width: 100%;
+	height: auto;
+}
+
+.vid-intro{
+	font-size:28px;
+}
+	
+.vid-text{
+	background-color: rgb(120, 71, 148);
+	font-family: 'Lato', sans-serif;
+	color: white;
+	padding-top:10px;
+	padding-left:10px;
+	font-size:17px;
+}
+
+/*//CV's//*/
+/*//Contact//*/
+.denotes{
+	font-size:12px;
+}
+
+/*//Learning Outcomes//*/
+/*Style the buttons that are used to open and close the accordion panel*/
+.accordion{
+	background-color: #e4e3e3;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+ }
+  
+ /*Background color to button if clicked when mouse over it*/
+.accordion:hover,.accordion.active{
+	background-color: rgb(120, 71, 148);
+	color: White;
+ }
+  
+ /*Style accordion panel. Hidden by default */
+.panel{
+	padding: 0 18px;
+	background-color: white;
+	display: none;
+	overflow: hidden;
+}
+
+.accordionText{
+	margin-left: 20px; 
+}
+
+#projectDescription{ 
+	margin-left: 25px;
+}
+
+.bullet{
+	list-style: circle;/*styles bulletpoints list*/
+}
+
+.learningTable{/* styling for table - learning  */
+	margin:20px; 
+	border-collapse: collapse;
+	border: 1px solid black;
+	font-family: 'Roboto', sans-serif;
+}
+
+.space{/*adds in table on learning page*/
+	height: 20px;
+}
+
+.trline{ /*styling table rows in table learning page*/
+	border-bottom: 1px solid #050000;
+	background-color: rgb(120, 71, 148);
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+input[type=text], select, textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical 
+}
+  
+/*Style submit button*/
+input[type=submit]{
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+  
+/*Mouse over submit button - darker green*/
+input[type=submit]:hover{
+	background-color: #45a049; 
+}
+
+.containers{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+#success-message{
+	display: none;
+	color: green;
+	margin-top: 10px;
+}
+
+.submit{
+	padding-left: 0%;
+}
+
+/*Evaluation*/
+.ref-pur,.ref-grey{
+	margin:0;
+	padding: 20px 0 20px 20px;
+}
+
+.ref-pur{
+	background-color: rgb(120, 71, 148);
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size:20px;
+}
+
+.ref-grey{
+	background-color: rgb(234, 236, 236);
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-size:20px;
+}
+	
+/*Reflection*/
+.hidden{
+	display: none;
+}
+
+.btn-ref-group, .btn-ref-timeline{
+	width: 160px;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	float: right;
+}
+		
+.btn-ref-group, .btn-ref-timeline{
+	background-color: rgb(120, 71, 148) !important;
+	color: white !important;
+}
+			
+.btn-ref-timeline{
+	background-color: rgb(234, 236, 236) !important;
+	color: black !important;
+}
+
+/*//Other//*/
+.row-module{
+	background-color: rgb(120, 71, 148);
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+.lo-text{
+	font-family: 'Lato', sans-serif;
+	font-size:18px;
+	margin-bottom: 0px;
+	margin-left:15px;
+}
+
+.lo-h1{
+	font-family: 'Lato', sans-serif;
+	font-size:40px;
+	margin-bottom: 0px;
+	margin-left:15px;	
+}
+
+.panel-click{
+	margin-left: 15px;
+}
+
+.title-bar{
+	background-color: rgb(120, 71, 148);
+	font-family: 'Lato', sans-serif;
+	font-size:40px;
+	margin-bottom: 0px;
+	margin-left:0px;	
+	color: white;	
+}
+
+.title-subbar{
+	background-color: White
+	font-family: 'Lato', sans-serif;
+	font-size:15px;
+	padding-left:15px;	
+	color: black;	
+}
+
+/**/
+
+.cards{
+    margin-bottom: 50px;
+}
+
+.cvCard{
+    justify-content: space-between;
+}
+
+.btn-primary{
+    background-color: rgb(120, 71, 148)!important;
+    border:2px solid black!important;
+}
+
+.btn-primary:hover{
+    color:#010005 !important;
+}
+
+
+/*About*/
+.course-title-1, .course-title-2{
+	text-align: Center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.course-title-1{
+	color:black;
+	background-color: rgb(234, 236, 236);
+}
+
+.course-title-2{
+	color: white;
+	background-color: rgb(120, 71, 148);
+}
+
+.card-details-1, .card-details-2{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.card-details-1{
+	color:black;
+	background-color: rgb(234, 236, 236);
+}
+
+.card-details-2{
+	color: white;
+	background-color: rgb(120, 71, 148);
+}
+
+.card-image{
+	max-width: 80%;
+	height: auto;
+	transform: scale(0.7);
+	margin: 0 auto;
+	display: block;
+}
+
+.toggle-button {
+	padding: 8px 16px;
+	background-color: rgb(120, 71, 148);
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	width: 160px;
+	display: block;
+	margin: 0 auto;
+}
+

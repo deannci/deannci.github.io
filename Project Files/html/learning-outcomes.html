@@ -1,0 +1,594 @@
+<!-- Aaron developed the outcomes page -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project</title>
+		<link rel="icon" type="images/x-icon" href="../images/other/NCI_N.jpg" />
+		<link rel="stylesheet" href="../styles/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	</head>
+	<body>
+	
+	
+	<!-- NavBar-->
+	<nav class="navbar navbar-expand-lg">
+	  <div class="container" id="linked-start">
+		<a class="nav-link" href="../index.html"><img src="../images/other/nciLogo.jpg" alt="NCI Logo" class="navbar-brand ncilogo" height="70" /></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav ms-auto">
+			<li class="nav-item nav-item dropdown">
+			  <a class="nav-link active nav-link dropdown-toggle" aria-current="page" href="../index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+			  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				<li><a class="dropdown-item" href="../index.html#linked-introduction">Introduction</a></li>
+				<li><a class="dropdown-item" href="../index.html#linked-details">Project Details</a></li>
+				<li><a class="dropdown-item" href="../index.html#linked-video">Video</a></li>
+				<li><a class="dropdown-item" href="../index.html#linked-members">Group Members</a></li>
+			  </ul>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/learning-outcomes.html">Learning Outcomes</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/game.html">Game</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/video.html">Video</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/cv.html">Our CV's</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/contact.html">Contact</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/about.html">About</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+		
+		
+	<!--Carousel-->
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-1.jpg" class="d-block w-100" alt="banner image 1" onclick="showText('Please enjoy exploring our page!')">
+					<p class="overlay-text">Learning Outcomes</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-2.jpg" class="d-block w-100" alt="banner image 2" onclick="showText('Please enjoy exploring our page!')">
+					<p class="overlay-text">Learning Outcomes</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-3.jpg" class="d-block w-100" alt="banner image 3" onclick="showText('Please enjoy exploring our page!')">
+					<p class="overlay-text">Learning Outcomes</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-4.jpg" class="d-block w-100" alt="banner image 4" onclick="showText('Please enjoy exploring our page!')">
+					<p class="overlay-text">Learning Outcomes</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-5.jpg" class="d-block w-100" alt="banner image 5" onclick="showText('Please enjoy exploring our page!')">
+					<p class="overlay-text">Learning Outcomes</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-6.jpg" class="d-block w-100" alt="banner image 6" onclick="showText('Please enjoy exploring our page!')">
+					<p class="overlay-text">Learning Outcomes</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<!--introduction-->
+	<div class="row-module pt-1 pb-1">
+		<h1 class="lo-h1">Web Design & Client Side Scripting</h1>
+		<p class="lo-text">Module Code: H8WBD (HDWD_SEP23OL)</p>
+	</div>
+
+	
+	<!--card-deck tabs-->    
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#moduleContent">Module Content</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#projectDescription">Project Description</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#learningOutcomes">Learning Outcomes</a>
+          </li>
+        </ul>
+      </div>
+    </div> 
+	
+	
+    <!--Content within each tab of card decks--> 
+    <div class="tab-content card-body">
+      <!--module Content Tab Accordion and content held within an Accordion that 'opens' when clicked and each element of 'closed' accordion has a shadow when hovered over-->
+      <div id="moduleContent" class="tab-pane fade show active">
+        <h5 class="panel-click mt-5 mb-1">Click the panels below for more information on the topics that this module covers</h5>
+        <p>
+          <br>
+        </p>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel1"><b>What is Client Side Scripting?</b></button>
+        <div id="panel1" class="collapse">
+          <p class =accordionText>Content/Style Behaviour, HTML, CSS, JSServer vs client, Key concerns, History & future Cyclical design model</P>
+          <ul class = bullet>
+            <li>Content: Refers to the structure and elements of a webpage.</li>
+            <li>Style: Involves the presentation and layout using CSS.</li>
+            <li>Behaviour: Interaction and dynamic changes implemented using JavaScript.</li>
+          </ul>
+          <p class = accordionText><b>HTML, CSS, JS:</b></p>
+          <ul class = bullet>
+            <li>HTML (Hypertext Markup Language): Defines the structure of web content.</li>
+            <li>CSS (Cascading Style Sheets): Controls the presentation and layout.</li>
+            <li>JS (JavaScript): Enables interactive and dynamic behavior.</li>
+          </ul>
+          <p class = accordionText><b>Server vs Client</b></p>
+          <ul class = bullet>
+            <li>Server-Side: Processes occur on the webserver</li>
+            <li>Client-Side: Processes occur on the user's browser </li>
+          </ul>
+        </div>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel2"><b>Document Structure</b></button>
+        <div id="panel2" class="collapse">
+          <p class =accordionText>DOM, Cross browser compatibility, Separation of concerns, Classes & IDs</p>
+          <p class = accordionText><b>DOM (Document Object Model)</b></p>
+          <ul class = bullet>
+            <li>Representation: A tree-like structure representing the document.</li>
+            <li>Manipulation: Using scripting languages to change document structure.</li>
+          </ul>
+          <p class = accordionText><b>Cross Browser Compatibility:</b></p>
+          <ul class = bullet>
+            <li>Ensuring Consistency: Making sure the website functions similarly on different browsers.</li>
+            <li>Testing: Regular testing on various browsers during development.</li>
+          </ul>
+          <p class = accordionText><b>Separation of Concerns:</b></p>
+          <ul class = bullet>
+            <li>Modularity: Dividing code into logical sections for maintainability.</li>
+            <li>HTML, CSS, JS Files: Each responsible for specific aspects. </li>
+          </ul>
+          <p class = accordionText><b>Classes & IDs:</b></p>
+          <ul class = bullet>
+            <li>Classes: Groups of elements sharing common styles or behavior.</li>
+            <li>IDs: Unique identifiers for specific elements. </li>
+          </ul>
+        </div>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel3"><b>CSS</b></button>
+        <div id="panel3" class="collapse">
+          <p class =accordionText>The cascade, Inheritance, Overrides, CSS resets, Background images</p>
+          <p class = accordionText><b>The Cascade:</b></p>
+          <ul class = bullet>
+            <li>Priority System: How styles are applied based on specificity and importance.</li>
+            <li>Inheritance: Styles inherited by child elements.</li>
+          </ul>
+          <p class = accordionText><b>Overrides:</b></p>
+          <ul class = bullet>
+            <li>Specificity: Rules governing which style declarations take precedence.</li>
+            <li>!important: Forceful declaration.</li>
+          </ul>
+          <p class = accordionText><b>CSS Resets:</b></p>
+          <ul class = bullet>
+            <li>Normalization: Ensuring consistent styling across different browsers.</li>
+            <li>Reset Stylesheet: Zeroing out default styles. </li>
+          </ul>
+        </div>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel4"><b>HTML Elements</b></button>
+        <div id="panel4" class="collapse">
+          <p class =accordionText>Images, Links, Lists, Forms</p>
+          <p class = accordionText><b>Images</b></p>
+          <ul class = bullet>
+            <li>Embedding Images</li>
+            <li>Attributes: src, alt, width, height</li>
+          </ul>
+          <p class = accordionText><b>Links</b></p>
+          <ul class = bullet>
+            <li>Creating hyperlinks</li>
+            <li>Attributes: href, target</li>
+          </ul>
+          <p class = accordionText><b>Forms</b></p>
+          <ul class = bullet>
+            <li>Collecting user input</li>
+            <li>Validation: Ensuring data integrity </li>
+          </ul>
+        </div>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel5"><b>Pathing and Deployment</b></button>
+        <div id="panel5" class="collapse">
+          <p class =accordionText>Relative vs absolute paths, Domain name and hosting, Deployment methodologies</p>
+          <p class="accordionText"><b>Relative vs Absolute Paths:</b></p>
+          <ul class="bullet">
+              <li>Relative Paths: Defined in relation to the current page.</li>
+              <li>Absolute Paths: Defined with the full URL or directory structure.</li>
+          </ul>
+          <p class="accordionText"><b>Domain Name and Hosting:</b></p>
+          <ul class="bullet">
+              <li>Domain Name: The web address used to access a site.</li>
+              <li>Hosting: Providing server space to store and serve website files.</li>
+          </ul>
+          <p class="accordionText"><b>Deployment Methodologies:</b></p>
+          <ul class="bullet">
+              <li>Manual Deployment: Uploading files via FTP or other methods.</li>
+              <li>Automated Deployment: Using tools like Git or CI/CD pipelines for efficient deployment.</li>
+          </ul>
+        </div>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel6"><b>Layout 1</b></button>
+        <div id="panel6" class="collapse">
+          <p class =accordionText>Positioning, Text layout, CSS floats</p>
+          <p class="accordionText"><b>Positioning:</b></p>
+          <ul class="bullet">
+              <li>CSS Position Property: Specifies the positioning method.</li>
+              <li>Position Values: static, relative, absolute, fixed, sticky.</li>
+          </ul>
+          <p class="accordionText"><b>Text Layout:</b></p>
+          <ul class="bullet">
+              <li>Typography: Styling and arranging text on a webpage.</li>
+              <li>Line Height, Letter Spacing, and Font Styling.</li>
+          </ul>
+          <p class="accordionText"><b>CSS Floats:</b></p>
+          <ul class="bullet">
+              <li>Float Property: Aligns elements to the left or right.</li>
+              <li>Used for creating text wraps and layouts.</li>
+          </ul>
+        </div>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel7"><b>Layout 2</b></button>
+        <div id="panel7" class="collapse">
+          <p class =accordionText>Responsive design, Adaptive layout, CSS media queries, Layout, Frameworks</p>
+          <p class="accordionText"><b>Responsive Design:</b></p>
+          <ul class="bullet">
+              <li>Fluid Grids and Flexible Images.</li>
+              <li>CSS Media Queries: Adjust styles based on device characteristics.</li>
+          </ul>
+          <p class="accordionText"><b>Adaptive Layout:</b></p>
+          <ul class="bullet">
+              <li>Design that adapts to different screen sizes.</li>
+              <li>Customizing layouts for specific devices.</li>
+          </ul>
+          <p class="accordionText"><b>CSS Media Queries:</b></p>
+          <ul class="bullet">
+              <li>Conditional styling based on viewport characteristics.</li>
+              <li>Commonly used for responsive web design.</li>
+          </ul>
+          <p class="accordionText"><b>Layout Frameworks:</b></p>
+          <ul class="bullet">
+              <li>Bootstrap, Foundation, and other front-end frameworks.</li>
+              <li>Pre-built components for rapid development.</li>
+          </ul>
+        </div>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel8"><b>JavaScript 1</b></button>
+        <div id="panel8" class="collapse">
+          <p class =accordionText>What is behaviour Examples Variables Operators Default functions Output</p>
+          <p class="accordionText"><b>What is Behavior?</b></p>
+          <ul class="bullet">
+              <li>Interactive and dynamic actions on a webpage.</li>
+              <li>Manipulating the Document Object Model (DOM).</li>
+          </ul>
+          <p class="accordionText"><b>Examples:</b></p>
+          <ul class="bullet">
+              <li>Event Handling: Responding to user actions.</li>
+              <li>Form Validation: Checking user input for correctness.</li>
+          </ul>
+          <p class="accordionText"><b>Variables:</b></p>
+          <ul class="bullet">
+              <li>Containers for storing data values.</li>
+              <li>Declared using var, let, or const.</li>
+          </ul>
+          <p class="accordionText"><b>Operators:</b></p>
+          <ul class="bullet">
+              <li>Arithmetic, Comparison, Logical, and Assignment operators.</li>
+              <li>Used for performing operations on variables.</li>
+          </ul>
+        </div>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel9"><b>JavaScript 2</b></button>
+        <div id="panel9" class="collapse">
+          <p class =accordionText>DOM manipulation Inspector Functions If statements</p>
+          <p class="accordionText"><b>DOM Manipulation:</b></p>
+        <ul class="bullet">
+            <li>Changing the structure, style, or content of a webpage.</li>
+            <li>Accessing and modifying DOM elements using JavaScript.</li>
+        </ul>
+        <p class="accordionText"><b>Inspector:</b></p>
+        <ul class="bullet">
+            <li>Browser tools for debugging and inspecting web elements.</li>
+            <li>Examining and modifying HTML and CSS in real-time.</li>
+        </ul>
+        <p class="accordionText"><b>Functions:</b></p>
+        <ul class="bullet">
+            <li>Reusable blocks of code with a specific purpose.</li>
+            <li>Declared using function keyword, can accept parameters.</li>
+        </ul>
+        <p class="accordionText"><b>If Statements:</b></p>
+        <ul class="bullet">
+            <li>Conditional statements for decision-making in code.</li>
+            <li>Executing different blocks of code based on a condition.</li>
+        </ul>
+        </div>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel10"><b>Javascript 3</b></button>
+        <div id="panel10" class="collapse">
+          <p class =accordionText>Loops Arrays Testing</p>
+          <p class="accordionText"><b>Loops:</b></p>
+        <ul class="bullet">
+            <li>For, While, and Do-While loops for repetitive tasks.</li>
+            <li>Iterating over arrays or a sequence of actions.</li>
+        </ul>
+        <p class="accordionText"><b>Arrays:</b></p>
+        <ul class="bullet">
+            <li>Ordered lists used to store multiple values.</li>
+            <li>Indexed, allowing easy access and manipulation of data.</li>
+        </ul>
+        <p class="accordionText"><b>Testing:</b></p>
+        <ul class="bullet">
+            <li>Verification of code functionality and performance.</li>
+            <li>Unit testing, integration testing, and user acceptance testing.</li>
+        </ul>
+        </div>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel11"><b>Webpage Optimisation</b></button>
+        <div id="panel11" class="collapse">
+          <p class =accordionText>Testing Image compression Redirects/http requests Caching Minification Content delivery</p>
+          <p class="accordionText"><b>Testing:</b></p>
+        <ul class="bullet">
+            <li>Ensuring website functionality and performance meet requirements.</li>
+            <li>Various testing methods: unit testing, integration testing, and user acceptance testing.</li>
+        </ul>
+        <p class="accordionText"><b>Image Compression:</b></p>
+        <ul class="bullet">
+            <li>Reducing image file sizes without compromising quality.</li>
+            <li>Improving webpage load times and overall performance.</li>
+        </ul>
+        <p class="accordionText"><b>Redirects/HTTP Requests:</b></p>
+        <ul class="bullet">
+            <li>Managing server requests and optimizing page redirects.</li>
+            <li>Minimizing unnecessary HTTP requests for faster loading.</li>
+        </ul>
+        <p class="accordionText"><b>Caching:</b></p>
+        <ul class="bullet">
+            <li>Storing static files locally to reduce load times for returning visitors.</li>
+            <li>Utilizing browser caching and server-side caching strategies.</li>
+        </ul>
+        <p class="accordionText"><b>Minification:</b></p>
+        <ul class="bullet">
+            <li>Removing unnecessary characters from code to reduce file size.</li>
+            <li>Improving load times by optimizing CSS, JavaScript, and HTML.</li>
+        </div>
+        <button class="accordion" data-bs-toggle="collapse" data-bs-target="#panel12"><b>Search Engine Optimisation</b></button>
+        <div id="panel12" class="collapse">
+          <p class =accordionText>Testing Analytics Meta tags Title tags Sitemaps</p>
+          <p class="accordionText"><b>Testing:</b></p>
+          <ul class="bullet">
+              <li>Evaluating website performance in search engine results.</li>
+              <li>Using tools like Google Search Console for insights.</li>
+          </ul>
+          <p class="accordionText"><b>Analytics:</b></p>
+          <ul class="bullet">
+              <li>Collecting and analyzing data about website traffic and user behavior.</li>
+              <li>Utilizing tools like Google Analytics for comprehensive insights.</li>
+          </ul>
+          <p class="accordionText"><b>Meta Tags:</b></p>
+          <ul class="bullet">
+              <li>Providing metadata to describe the content of each webpage.</li>
+              <li>Includes title tags, meta descriptions, and meta keywords.</li>
+          </ul>
+        </div>
+      </div>
+	  
+      <!--project description tab of card deck and content within which details the project brief-->
+      <div id="projectDescription" class="tab-pane fade">
+        <h1 class="mt-4">Group Project Overview</h1>
+        <h5>Below you will find the details of the group project for this module outlined clearly and concisely for ease of understanding</h5>
+        <p>
+          <br>
+        </p>
+        <h2>Project Brief</h2>
+        <p>You are required to develop a website for a business of your choice. This assignment is a group-based project, and each group will consist of 2-3 participants.</p>
+    
+        <h2>Website Characteristics</h2>
+        <ul>
+          <li>Minimum Web Pages:
+            <ul>
+                <li>For groups of 2: Minimum 4 web pages</li>
+                <li>For groups of 3: Minimum 6 web pages</li>
+            </ul>
+          </li>
+          <li>All Pages Styled by One External CSS File</li>
+          <li>Clearly Defined, Consistent Navigation System and Form</li>
+          <li>Form Entries Should Be Validated</li>
+          <li>Some HTML Content to Be Manipulated Using JavaScript</li>
+          <li>Bootstrap May Be Used</li>
+          <li>jQuery May Be Used</li>
+        </ul>
+    
+        <h2>Website Requirements</h2>
+        <ul>
+            <li>Deployment of the Website</li>
+            <li>Validated and Optimized HTML and CSS Syntax</li>
+            <li>Implementation of Search Engine Optimization Practices</li>
+        </ul>
+        
+        <h3>Note: Customize the content based on the specific requirements of your project.</h3>
+        <p></p>
+        <h2>Design Requirements</h2>
+        <p>You have been assigned as web developer for and you need to state the client
+          requirements. In your design (wireframes & mood board) show how you incorporated
+          the client requirements. Demonstrate the following:</p>
+          <ul>
+            <li>Header with website title, logo and tagline. </li>
+            <li>Consistent navigation and design across all pages of the website. </li>
+            <li>At least 1 (or more) use of a background image. </li>
+            <li>Gallery of 4 or more images. When the user clicks an image, JavaScript to be
+                used to show some text relating to that image. </li>
+            <li>Form with at least 4 fields of different types such as text, numeric, etc. Form to
+              include a checkbox / radio / dropdown field. Include JavaScript validation.</li>
+            <li>All pages must have an example of JavaScript to demonstrate manipulation of
+              the DOM. </li>
+            <li>A JavaScript minigame for visitors to play that includes an element of
+              randomisation.</li>
+            <li>All pages are responsive.</li>
+            <li>There is only 1 external CSS file for all pages.</li>
+            <li>Use of folders and file paths. </li>
+            <li>Show the use of 2-3 Google fonts throughout site.</li>
+        </ul>
+      </div>
+	  
+      <!--Learning outcomes tab of card deck and table holding learning outcomes content-->
+      <div id="learningOutcomes" class="tab-pane fade">
+        <div class="row mt-4 mb-4">
+          <div class="col-md-6  border d-flex flex-column align-items-stretch">
+            <p>
+              <br><!--break to make empty space on page for spacing-->
+            </p>
+            <h4>The learning objectives for this module are outlined in the below table</h4>
+            <!--table that outlines learning objectes for the Web Design & Client Side Scripting module-->
+            <table class =learningTable>
+              <tr>
+                <th>On successful completion of this module the learner will be able to:</th>
+              </tr>
+              <tr class= space>
+                <br>
+              </tr>
+              <tr class = trline> <!--trline class has a background colour of purple and white text to contrast in the table every 2nd <tr>-->
+                <td>Develop client side web applications in line with current and legacy web standards.</td>
+              </tr>
+              <tr>
+                <td>Utilise a web scripting language to manipulate and visualise data</td>
+              </tr>
+              <tr class = trline>
+                <td>	Select and implement appropriate client side frameworks and toolkits</td>
+              </tr>
+              <tr>
+                <td>Select and implement appropriate deployment methodologies on a given project</td>
+              </tr>
+              <tr class = trline>
+                <td>Optimise written code in terms of both speed and for search engines</td>
+              </tr>
+              <tr>
+                <td>Create user interfaces that adapt seamlessly to various screen sizes and devices</td>
+              </tr>
+              <tr class = trline>
+                <td>Incorporate interactive elements using JavaScript to enhance user engagement and experience</td>
+              </tr>
+              <tr>
+                <td>Apply principles of responsive web design, including flexible grid layouts, to create adaptive layouts</td>
+              </tr>
+              <tr class = trline>
+                <td>Embed and optimize multimedia elements, such as images, videos etc. into web applications</td>
+              </tr>
+            </table>
+            <h5>The module aims to provide a comprehensive introduction to Web Design for learners of all levels </h5>
+          </div>
+          <div class="col-md-6">
+            <img src="../images/otherimages/learningoutcomes-1.jpg" alt="Object that is half an opened book and other half is an opened laptop" class="img-fluid" style="width: 100%;">
+          </div>
+        </div>
+        <!--2nd row of learning outcomes tab-->
+        <div class="row">
+
+          <!--image on 2nd row of learning outcomes tab-->
+          <div class="col-md-6">
+            <img src="../images/otherimages/learningoutcomes-2.jpg" alt="Students engaged in discussion about learning" class="img-fluid" style="width: 100%;">
+          </div>
+
+          <!--2nd column with info on Group Project Learning objectives with an ordered and nested unordered lists-->
+          <div class="col-md-6 border">
+            <h3>Learning objectives of Group Project</h3>
+            <p>
+              <br>
+            </p>
+            <ol>
+              <li>
+                <strong>Technical Skills:</strong>
+                <ul>
+                  <li>Proficiency in web development technologies (HTML, CSS, JavaScript, Bootstrap, jQuery).</li>
+                  <li>Implementation of responsive web design for diverse device experiences.</li>
+                </ul>
+              </li>
+      
+              <li>
+                <strong>Collaboration and Communication:</strong>
+                <ul>
+                  <li>Enhanced teamwork and communication through group-based project collaboration.</li>
+                  <li>Coordination of tasks, sharing of responsibilities, and effective team updates.</li>
+                </ul>
+              </li>
+      
+              <li>
+                <strong>Client Requirements and Design:</strong>
+                <ul>
+                  <li>Understanding and incorporation of client requirements in the design process.</li>
+                  <li>Demonstration of design elements such as header, navigation, background images, and galleries.</li>
+                </ul>
+              </li>
+      
+              <li>
+                <strong>Form and JavaScript:</strong>
+                <ul>
+                  <li>Creation of forms with various field types and validation using JavaScript and HTML5.</li>
+                  <li>Integration of JavaScript for dynamic content manipulation and implementation of a mini-game.</li>
+                </ul>
+              </li>
+
+              <li>
+                <strong>Documentation and Presentation:</strong>
+                <ul>
+                  <li>Comprehensive documentation of the project, including sitemap, wireframes, and team contributions.</li>
+                  <li>Creation of a video presentation highlighting key aspects of the website and individual contributions.</li>
+                </ul>
+              </li>
+            </ol>
+          </div>  
+        </div>
+      </div>
+    </div>  
+    </div>
+  </div>
+		
+
+	<!-- End of Page -->
+	<h4 class="end-of-page mb-0 pt-3" id="linked-end">end of page</h4>
+	<div class="container-fluid pt-4 end-of-page">
+		<div class="row justify-content-center">
+			<!-- First Column -->
+			<div class="col-sm-4 mx-auto">
+				<p class="mb-3 Group">Group Members</p>
+				<p class="mb-1 Group-Members">Dean Francis</p>
+				<p class="mb-1 Group-Members">Aaron Gallagher</p>
+				<p class="mb-4 Group-Members">Steven Sciberras</p>
+			</div>
+
+			<!-- Second Column -->
+			<div class="col-sm-4">
+				<p class="mb-3 Group">Student Numbers</p>
+				<p class="mb-1 Group-Members">22212761</p>
+				<p class="mb-1 Group-Members">23121386</p>
+				<p class="mb-4 Group-Members">23174668</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="../script/script.js"></script>	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+	<footer>
+	<!--Button-->
+	<div class="d-flex justify-content-center mb-0">
+			<a class="nav-link" href="#linked-start"><img src="../images/other/back-to-top.jpg" alt="Arrow" class="navbar-brand arrow" height="40" /></a>
+	</div>
+	</footer>
+</html>
+
