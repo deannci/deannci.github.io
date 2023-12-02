@@ -1,0 +1,181 @@
+<!-- Dean developed the video page -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project</title>
+		<link rel="icon" type="images/x-icon" href="../images/other/NCI_N.jpg" />
+		<link rel="stylesheet" href="../styles/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	</head>
+	<body>
+	
+	
+	<!-- NavBar-->
+	<nav class="navbar navbar-expand-lg">
+	  <div class="container" id="linked-start">
+		<a class="nav-link" href="../index.html"><img src="../images/other/nciLogo.jpg" alt="NCI Logo" class="navbar-brand ncilogo" height="70" /></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav ms-auto">
+			<li class="nav-item nav-item dropdown">
+			  <a class="nav-link active nav-link dropdown-toggle" aria-current="page" href="../index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+			  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				<li><a class="dropdown-item" href="../index.html#linked-introduction">Introduction</a></li>
+				<li><a class="dropdown-item" href="../index.html#linked-details">Project Details</a></li>
+				<li><a class="dropdown-item" href="../index.html#linked-video">Video</a></li>
+				<li><a class="dropdown-item" href="../index.html#linked-members">Group Members</a></li>
+			  </ul>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/learning-outcomes.html">Learning Outcomes</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/game.html">Game</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/video.html">Video</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/cv.html">Our CV's</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/contact.html">Contact</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../html/about.html">About</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+		
+		
+	<!--Carousel-->
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-1.jpg" class="d-block w-100" alt="banner image 1">
+					<p class="overlay-text">Video</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-2.jpg" class="d-block w-100" alt="banner image 2">
+					<p class="overlay-text">Video</p>
+				</div>
+			</div>
+			<div class="carousel-item active">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-3.jpg" class="d-block w-100" alt="banner image 3">
+					<p class="overlay-text">Video</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-4.jpg" class="d-block w-100" alt="banner image 4">
+					<p class="overlay-text">Video</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-5.jpg" class="d-block w-100" alt="banner image 5">
+					<p class="overlay-text">Video</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-content-container">
+					<img src="../images/banners/banner-6.jpg" class="d-block w-100" alt="banner image 6">
+					<p class="overlay-text">Video</p>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	
+	<!--Video-->
+	<div class="vid-intro container-fluid pt-2 background-purple">Please find our video presentation below. This video highlights a number of things including:
+		<ul class="vid-text mt-2 pb-2">
+			<li>The responsivness of our website</li>
+			<li>Use of framework</li>
+			<li>Form validation</li>
+			<li>JavaScript implementation</li>
+			<li>Developement</li>
+			<li>Each memebrs contribution</li>
+		</ul>
+	</div>
+	<div class="video-card mt-2">
+		<a href="https://studentncirl-my.sharepoint.com/personal/x22212761_student_ncirl_ie/_layouts/15/stream.aspx?id=%2Fpersonal%2Fx22212761%5Fstudent%5Fncirl%5Fie%2FDocuments%2FRecording%2D20231202%5F152238%2Ewebm&referrer=OfficeHome%2EWeb&referrerScenario=RecommendedVideo%2EView" target="_blank">
+			<div class="card" id="vidcard">
+				<img src="../images/cards/card-7.jpg" class="mb-3" alt="Video Image">
+				<h3>Video Presentation</h3>
+				<p>Click here to watch the video!</p>
+			</div>
+		</a>
+	</div>
+	
+	
+	<!--Reflection-->	
+	<div class="Reflection">
+		<div class="ref-pur" id="linked-evaluation">
+		Group Evaluation:
+			<button class="btn-ref-group" onclick="toggleVisibility('evaluation')">Show Details</button>
+			<ul class="hidden mt-4" id="evaluation-list">
+				<li>As a requirement of this project each member was required to submit a peer evaluation form. The following point summarise how each of us felt about our experience working on this project together.</li>
+			</ul>
+		</div>
+
+		<div class="ref-grey" id="linked-timeline">
+		Project Timeline:
+			<button class="btn-ref-timeline" onclick="toggleVisibility('timeline')">Show Details</button>
+			<ul class="hidden mt-4" id="timeline-list">
+				<li>With regards to the timeline of this project. Discussion on our topic to cover began several weeks into the module, around when we were first told the general expectations of the project. From there we began agreeing on topics/subjects and go to the development of the site. Each member volunteered for a critical part of the project and began working independently on their respective part. If any difficulties or changes were face, we together as a team came up with solutions.</li>
+			 </ul>
+		</div>
+
+		<div class="ref-pur" id="linked-learning">
+		What we learned:
+			<button class="btn-ref-group" onclick="toggleVisibility('learning')">Show Details</button>
+			<ul class="hidden mt-4" id="learning-list">
+				<li>We all were able to communicate effectively with each other.</li>
+				<li>Plan the development of the project within scope and to a definite timeline.</li>
+				<li>Furthered our knowledge of HTML, CSS, and JavaScript.</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- End of Page -->
+	<h4 class="end-of-page mb-0 pt-3" id="linked-end">end of page</h4>
+	<div class="container-fluid pt-4 end-of-page">
+		<div class="row justify-content-center">
+			<!-- First Column -->
+			<div class="col-sm-4 mx-auto">
+				<p class="mb-3 Group">Group Members</p>
+				<p class="mb-1 Group-Members">Dean Francis</p>
+				<p class="mb-1 Group-Members">Aaron Gallagher</p>
+				<p class="mb-4 Group-Members">Steven Sciberras</p>
+			</div>
+
+			<!-- Second Column -->
+			<div class="col-sm-4">
+				<p class="mb-3 Group">Student Numbers</p>
+				<p class="mb-1 Group-Members">22212761</p>
+				<p class="mb-1 Group-Members">23121386</p>
+				<p class="mb-4 Group-Members">23174668</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="../script/script.js"></script>	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+	<footer>
+	<!--Button-->
+	<div class="d-flex justify-content-center mb-0">
+			<a class="nav-link" href="#linked-start"><img src="../images/other/back-to-top.jpg" alt="Arrow" class="navbar-brand arrow" height="40" /></a>
+	</div>
+	</footer>
+</html>
+
